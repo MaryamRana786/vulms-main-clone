@@ -1,0 +1,2020 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-seri }
+
+
+
+.body{width: 100%;
+      height: 100%;}
+
+
+
+
+.container{width:100%;
+           height:100vh ;
+           display: flex;
+} 
+             
+
+
+ /********created by : Maryam rana*******************************
+ **************************************************************
+ ***********main-body**************************/  
+
+
+
+
+ .main-body{width: 80%;
+            height:204vh ;
+         }  
+
+
+
+.navbar{   width: 100%;
+           height:13vh ; 
+           background-color: white;
+           display: flex;
+           align-items: center;
+           justify-content: space-between;
+           
+        }
+
+
+
+
+    .logo{margin-left: 25px;}
+
+
+
+
+
+
+     .bi.bi.bi-person-circle{ 
+    
+            width: 50px;
+            height: 100px;
+             margin-right: 25px;}
+
+
+
+
+.content-area{ display: block;
+    flex-direction:column ;
+     align-items: center;
+      justify-content: space-between;
+     height:191vh ;
+      width: 100%;
+      }
+
+
+
+.courses-fall{width: 100%;
+               height: 5vh;
+             font-family:monospace;
+            font-size: 1.5rem;
+            margin-left: 19px;
+           
+             }
+
+.courses-fall span {color: violet;}
+
+
+.courses-fall h4{width: 100%;
+                 height: 5vh;
+                   background-color: darkmagenta;}
+
+
+
+
+.upper-content{display: flex;
+               align-items: center;
+                justify-content: space-between;
+                width: 100%;
+                height: 63vh;
+                 
+                }
+
+
+
+
+
+/*****************************
+***********CS101-AREA******/ 
+
+
+
+
+.cs101{ width: 50%;
+         height:63vh ;
+         background-color:white;
+         
+        }
+
+
+.cs101-mainbar{width: 90%;
+               height:50vh ;
+               margin-left: 25px;
+                margin-top: 60px;
+            
+            }
+
+
+.cs101bar{  width:100%;
+            height:10vh ;
+             background-size:cover;
+             opacity: 0.9;
+              cursor: pointer;
+              color: white;
+            
+            
+             }
+.cs101-content{ width:100%;
+               height:10vh ;
+               margin-left: 12px;
+               font-size: 0.75rem;
+                 font-weight: 500;
+                 font-family:sans-serif;
+              
+                }
+
+.cs101-content h2{width: 90%;
+                height:3vh ;}
+
+
+.cs101-content h5{width: 90%;
+                  height:2vh ;
+                  margin-top: 12px;}
+
+
+
+
+
+.cs101-teacher{width: 100%;
+                height:20vh ;
+                display: flex;}
+
+
+.tanveer{width: 30%;
+         height: 20vh;
+         background-color:white;}
+   
+
+
+
+.tanveer img{width: 100px;
+             height: 90px;
+              margin-left: 15px;
+              margin-top: 16px;
+               border: 2px solid black;
+               border-radius:12px ;}
+
+
+
+
+
+.tanveer-content{width: 70%;
+    height: 20vh;
+     background-color: white;
+    }
+
+
+
+.tanveer-content p{ margin-top: 40px;
+                     margin-left: 12px;}
+
+
+
+.cs101-icons{    width: 100%;
+                 height:10vh ;
+                 display: flex;
+                align-items: center;
+                  justify-content: space-evenly;
+        }
+
+/************************
+**************************
+Created by MARYAM RANA
+***************************
+**************************
+ASSINNMENT AREA
+********************************/
+
+.Assignmentcs101{width: 25%;
+             height:10vh ;
+             background-color: white;
+             display: flex;
+             flex-direction: column;
+            
+             }
+
+
+.Assignmentcs101img{width: 100%;
+                     height:7vh ;
+                      background-color: white;
+                      margin-left: 25px;
+                     }
+
+
+.Assignmentcs101content{width: 100%;
+    height:3vh ;
+     background-color:white;
+     margin-left: 12px;}
+
+/************************
+**************************
+Created by MARYAM RANA
+***************************
+**************************
+Quiz AREA
+********************************/
+
+
+
+
+.Quiz4cs101{width: 25%;
+    height:10vh ;
+     display: flex;
+     flex-direction: column;}
+
+
+.Quiz4cs101img{width: 100%;
+        height:7vh ;
+         background-color: white;
+         margin-left: 25px;
+        }
+
+
+.Quiz4cs101content{width: 100%;
+height:3vh ;
+background-color:white;
+margin-left: 25px;}
+
+
+
+
+/************************
+**************************
+Created by MARYAM RANA
+***************************
+**************************
+         GDB  AREA
+********************************/
+
+.GDBcs101{  width: 25%;
+     height:10vh ;  
+    display: flex;
+   flex-direction: column;}
+
+
+
+.GDBcs101img{   width: 100%;
+  height:7vh ;
+ background-color: white;
+  margin-left: 25px;
+    }
+
+
+
+
+.GDBcs101content{width: 100%;
+height:3vh ;
+background-color:white;
+margin-left: 25px;}
+
+
+
+
+/************************
+**************************
+Created by MARYAM RANA
+***************************
+**************************
+          Activity AREA
+********************************/
+
+
+
+
+.Activitycs101{ width: 25%;
+  height:10vh ;
+display: flex;
+ flex-direction: column;
+ }
+
+
+
+.Activitycs101img{   width: 100%;
+   height:7vh ;
+ background-color: white;
+ margin-left: 25px;
+}
+
+
+
+
+.Activitycs101content{width: 100%;
+height:3vh ;
+background-color:white;
+margin-left: 25px;}
+
+
+
+
+
+
+
+
+/************************
+**************************
+Created by MARYAM RANA
+***************************
+**************************
+    Announcement AREA
+********************************/
+
+
+
+.cs101-lasticon{width: 100%;
+height: 10vh;
+display: flex;}
+
+
+.Announcement{width:50%;
+ height: 10vh;
+display: flex;
+ flex-direction: column;}
+
+
+.Announcementcs101img{ width: 100%;
+ height:7vh ;
+ background-color: white;
+  margin-left: 15px;
+  margin-top: 3px;
+             }
+             
+             
+             
+.Announcementcs101content{width: 100%;
+  height:3vh ;
+background-color:white;
+ margin-left: 15px;}
+
+
+
+
+
+
+
+
+
+.emptycs101{width:50%;
+    height: 10vh;
+ }
+
+
+
+
+
+
+
+/*****************************
+********************************
+***********eng-101-AREA******/ 
+
+
+
+
+
+.ENG101{width: 50%;
+    height:63vh ;
+  }
+
+
+ .ENG101-mainbar{width: 90%;
+    height:50vh ;
+    margin-left: 25px;
+     margin-top: 60px;
+ 
+ }
+
+
+.ENG101bar{  width:100%;
+ height:10vh ;
+  background-size:cover;
+  opacity: 0.9;
+   cursor: pointer;
+   color: white;
+ 
+ 
+  }
+.ENG101-content{ width:100%;
+    height:10vh ;
+    margin-left: 12px;
+    font-size: 0.75rem;
+      font-weight: 500;
+      font-family:sans-serif;
+   
+     }
+
+.ENG101-content h2{width: 90%;
+     height:3vh ;}
+
+
+.ENG101-content h5{width: 90%;
+       height:2vh ;
+       margin-top: 12px;}
+
+
+
+
+
+.ENG101-teacher{width: 100%;
+     height:20vh ;
+     display: flex;}
+
+
+.Surriya{width: 30%;
+height: 20vh;
+background-color:white;}
+
+
+
+
+.Surriya img{width: 100px;
+  height: 90px;
+   margin-left: 15px;
+   margin-top: 16px;
+    border: 2px solid black;
+    border-radius:12px ;}
+
+
+
+
+
+.Surriya-content{width: 70%;
+height: 20vh;
+background-color: white;
+}
+
+
+
+.Surriya-content p{ margin-top: 40px;
+          margin-left: 12px;}
+
+
+
+.ENG101-icons{    width: 100%;
+      height:10vh ;
+      display: flex;
+     align-items: center;
+       justify-content: space-evenly;
+}
+
+/************************
+**************************
+Created by MARYAM RANA
+***************************
+**************************
+ASSINNMENT AREA
+********************************/
+
+.AssignmentENG101{width: 25%;
+  height:10vh ;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+ 
+  }
+
+
+.AssignmentENG101img{width: 100%;
+          height:7vh ;
+           background-color: white;
+           margin-left: 25px;
+          }
+
+
+.AssignmentENG101content{width: 100%;
+height:3vh ;
+background-color:white;
+margin-left: 12px;}
+
+/************************
+**************************
+Created by MARYAM RANA
+***************************
+**************************
+Quiz AREA
+********************************/
+
+
+
+
+.Quiz4ENG101{width: 25%;
+height:10vh ;
+display: flex;
+flex-direction: column;}
+
+
+.Quiz4ENG101img{width: 100%;
+height:7vh ;
+background-color: white;
+margin-left: 25px;
+}
+
+
+.Quiz4ENG101content{width: 100%;
+height:3vh ;
+background-color:white;
+margin-left: 25px;}
+
+
+
+
+/************************
+**************************
+Created by MARYAM RANA
+***************************
+**************************
+GDB  AREA
+********************************/
+
+.GDBENG101{  width: 25%;
+height:10vh ;  
+display: flex;
+flex-direction: column;}
+
+
+
+.GDBENG101img{   width: 100%;
+height:7vh ;
+background-color: white;
+margin-left: 25px;
+}
+
+
+
+
+.GDBENG101content{width: 100%;
+height:3vh ;
+background-color:white;
+margin-left: 25px;}
+
+
+
+
+/************************
+**************************
+Created by MARYAM RANA
+***************************
+**************************
+Activity AREA
+********************************/
+
+
+
+
+.ActivityENG101{ width: 25%;
+height:10vh ;
+display: flex;
+flex-direction: column;
+}
+
+
+
+.ActivityENG101img{   width: 100%;
+height:7vh ;
+background-color: white;
+margin-left: 25px;
+}
+
+
+
+
+.ActivityENG101content{width: 100%;
+height:3vh ;
+background-color:white;
+margin-left: 25px;}
+
+
+
+
+
+
+
+
+/************************
+**************************
+Created by MARYAM RANA
+***************************
+**************************
+Announcement AREA
+********************************/
+
+
+
+.ENG101-lasticon{width: 100%;
+height: 10vh;
+display: flex;}
+
+
+.Announcement{width:50%;
+height: 10vh;
+display: flex;
+flex-direction: column;}
+
+
+.AnnouncementENG101img{ width: 100%;
+height:7vh ;
+background-color: white;
+margin-left: 15px;
+margin-top: 3px;
+  }
+  
+  
+  
+.AnnouncementENG101content{width: 100%;
+height:3vh ;
+background-color:white;
+margin-left: 15px;}
+
+
+
+
+
+
+
+
+
+.emptyENG101{width:50%;
+height: 10vh;
+}
+
+
+
+/**************************************************************
+*************MIDDLE CONTENT**************************/
+
+
+
+
+.middle-content{display: flex;
+    align-items: center;
+    flex-direction: row;
+     justify-content: space-between;
+     width: 100%;
+     height: 63vh;
+    }
+
+
+
+/***************************
+********MTH101****************
+*****CREATED BY MARYAM RANA***/
+
+.MTH101{ width: 50%;
+height:63vh ;
+}
+
+
+/*****************************
+********************************
+***********MTH-101-AREA******/ 
+
+
+
+
+
+.MTH101{width: 50%;
+  height:63vh ;
+}
+
+
+.MTH101-mainbar{width: 90%;
+  height:50vh ;
+  margin-left: 25px;
+   margin-top: 60px;
+
+}
+
+
+.MTH101bar{  width:100%;
+height:10vh ;
+background-size:cover;
+opacity: 0.9;
+ cursor: pointer;
+ color: white;
+
+
+}
+.MTH101-content{ width:100%;
+  height:10vh ;
+  margin-left: 12px;
+  font-size: 0.75rem;
+    font-weight: 500;
+    font-family:sans-serif;
+ 
+   }
+
+.MTH101-content h2{width: 90%;
+   height:3vh ;}
+
+
+.MTH101-content h5{width: 90%;
+     height:2vh ;
+     margin-top: 12px;}
+
+
+
+
+
+.MTH101-teacher{width: 100%;
+   height:20vh ;
+   display: flex;}
+
+
+.Faisal{width: 30%;
+height: 20vh;
+background-color:white;}
+
+
+
+
+.Faisal img{width: 100px;
+height: 90px;
+ margin-left: 15px;
+ margin-top: 16px;
+  border: 2px solid black;
+  border-radius:12px ;}
+
+
+
+
+
+.Faisal-content{width: 70%;
+height: 20vh;
+background-color: white;
+}
+
+
+
+.Faisal p{ margin-top: 40px;
+        margin-left: 12px;}
+
+
+
+.MTH101-icons{    width: 100%;
+    height:10vh ;
+    display: flex;
+   align-items: center;
+     justify-content: space-evenly;
+}
+
+/************************
+**************************
+Created by MARYAM RANA
+***************************
+**************************
+ASSINNMENT AREA
+********************************/
+
+.AssignmentMTH101{width: 25%;
+height:10vh ;
+background-color: white;
+display: flex;
+flex-direction: column;
+
+}
+
+
+.AssignmentMTH101img{width: 100%;
+        height:7vh ;
+         background-color: white;
+         margin-left: 25px;
+        }
+
+
+.AssignmentMTH101content{width: 100%;
+height:3vh ;
+background-color:white;
+margin-left: 12px;}
+
+/************************
+**************************
+Created by MARYAM RANA
+***************************
+**************************
+Quiz AREA
+********************************/
+
+
+
+
+.Quiz4MTH101{width: 25%;
+height:10vh ;
+display: flex;
+flex-direction: column;}
+
+
+.Quiz4MTH101img{width: 100%;
+height:7vh ;
+background-color: white;
+margin-left: 25px;
+}
+
+
+.Quiz4MTH101content{width: 100%;
+height:3vh ;
+background-color:white;
+margin-left: 25px;}
+
+
+
+
+/************************
+**************************
+Created by MARYAM RANA
+***************************
+**************************
+GDB  AREA
+********************************/
+
+.GDBMTH101{  width: 25%;
+height:10vh ;  
+display: flex;
+flex-direction: column;}
+
+
+
+.GDBMTH101img{   width: 100%;
+height:7vh ;
+background-color: white;
+margin-left: 25px;
+}
+
+
+
+
+.GDBMTH101content{width: 100%;
+height:3vh ;
+background-color:white;
+margin-left: 25px;}
+
+
+
+
+/************************
+**************************
+Created by MARYAM RANA
+***************************
+**************************
+Activity AREA
+********************************/
+
+
+
+
+.ActivityMTH101{ width: 25%;
+height:10vh ;
+display: flex;
+flex-direction: column;
+}
+
+
+
+.ActivityMTH101img{   width: 100%;
+height:7vh ;
+background-color: white;
+margin-left: 25px;
+}
+
+
+
+
+.ActivityMTH101content{width: 100%;
+height:3vh ;
+background-color:white;
+margin-left: 25px;}
+
+
+
+
+
+
+
+
+/************************
+**************************
+Created by MARYAM RANA
+***************************
+**************************
+Announcement AREA
+********************************/
+
+
+
+.MTH101-lasticon{width: 100%;
+height: 10vh;
+display: flex;}
+
+
+.Announcement{width:50%;
+height: 10vh;
+display: flex;
+flex-direction: column;}
+
+
+.AnnouncementMTH101img{ width: 100%;
+height:7vh ;
+background-color: white;
+margin-left: 15px;
+margin-top: 3px;
+}
+
+
+
+.AnnouncementMTH101content{width: 100%;
+height:3vh ;
+background-color:white;
+margin-left: 15px;}
+
+
+
+
+
+
+
+
+
+.emptyMTH101{width:50%;
+height: 10vh;
+}
+
+
+
+/******************
+********************PAK301****************
+***********************************/
+
+
+
+
+.PAK301{ width: 50%;
+    height:63vh ;
+   }
+
+
+/***************************
+********PAK301****************
+*****CREATED BY MARYAM RANA***/
+
+.PAK301{ width: 50%;
+  height:63vh ;
+  }
+  
+  
+  /*****************************
+  ********************************
+  ***********PAK-301-AREA******/ 
+  
+  
+  
+  
+  
+  .PAK301{width: 50%;
+    height:63vh ;
+  }
+  
+  
+  .PAK301-mainbar{width: 90%;
+    height:50vh ;
+    margin-left: 25px;
+     margin-top: 60px;
+  
+  }
+  
+  
+  .PAK301bar{  width:100%;
+  height:10vh ;
+  background-size:cover;
+  opacity: 0.9;
+   cursor: pointer;
+   color: white;
+  
+  
+  }
+  .PAK301-content{ width:100%;
+    height:10vh ;
+    margin-left: 12px;
+    font-size: 0.75rem;
+      font-weight: 500;
+      font-family:sans-serif;
+   
+     }
+  
+  .PAK301-content h2{width: 90%;
+     height:3vh ;}
+  
+  
+  .PAK301-content h5{width: 90%;
+       height:2vh ;
+       margin-top: 12px;}
+  
+  
+  
+  
+  
+  .PAK301-teacher{width: 100%;
+     height:20vh ;
+     display: flex;}
+  
+  
+  .Hassan{width: 30%;
+  height: 20vh;
+  background-color:white;}
+  
+  
+  
+  
+  .Hassan img{width: 100px;
+  height: 90px;
+   margin-left: 15px;
+   margin-top: 16px;
+    border: 2px solid black;
+    border-radius:12px ;}
+  
+  
+  
+  
+  
+  .Hassan-content{width: 70%;
+  height: 20vh;
+  background-color: white;
+  }
+  
+  
+  
+  .Hassan p{ margin-top: 40px;
+          margin-left: 12px;}
+  
+  
+  
+  .PAK301-icons{    width: 100%;
+      height:10vh ;
+      display: flex;
+     align-items: center;
+       justify-content: space-evenly;
+  }
+  
+  /************************
+  **************************
+  Created by MARYAM RANA
+  ***************************
+  **************************
+  ASSINNMENT AREA
+  ********************************/
+  
+  .AssignmentPAK301{width: 25%;
+  height:10vh ;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  
+  }
+  
+  
+  .AssignmentPAK301img{width: 100%;
+          height:7vh ;
+           background-color: white;
+           margin-left: 25px;
+          }
+  
+  
+  .AssignmentPAK301content{width: 100%;
+  height:3vh ;
+  background-color:white;
+  margin-left: 12px;}
+  
+  /************************
+  **************************
+  Created by MARYAM RANA
+  ***************************
+  **************************
+  Quiz AREA
+  ********************************/
+  
+  
+  
+  
+  .Quiz4PAK301{width: 25%;
+  height:10vh ;
+  display: flex;
+  flex-direction: column;}
+  
+  
+  .Quiz4PAK301img{width: 100%;
+  height:7vh ;
+  background-color: white;
+  margin-left: 25px;
+  }
+  
+  
+  .Quiz4PAK301content{width: 100%;
+  height:3vh ;
+  background-color:white;
+  margin-left: 25px;}
+  
+  
+  
+  
+  /************************
+  **************************
+  Created by MARYAM RANA
+  ***************************
+  **************************
+  GDB  AREA
+  ********************************/
+  
+  .GDBPAK301{  width: 25%;
+  height:10vh ;  
+  display: flex;
+  flex-direction: column;}
+  
+  
+  
+  .GDBPAK301img{   width: 100%;
+  height:7vh ;
+  background-color: white;
+  margin-left: 25px;
+  }
+  
+  
+  
+  
+  .GDBPAK301content{width: 100%;
+  height:3vh ;
+  background-color:white;
+  margin-left: 25px;}
+  
+  
+  
+  
+  /************************
+  **************************
+  Created by MARYAM RANA
+  ***************************
+  **************************
+  Activity AREA
+  ********************************/
+  
+  
+  
+  
+  .ActivityPAK301{ width: 25%;
+  height:10vh ;
+  display: flex;
+  flex-direction: column;
+  }
+  
+  
+  
+  .ActivityPAK301img{   width: 100%;
+  height:7vh ;
+  background-color: white;
+  margin-left: 25px;
+  }
+  
+  
+  
+  
+  .ActivityPAK301content{width: 100%;
+  height:3vh ;
+  background-color:white;
+  margin-left: 25px;}
+  
+  
+  
+  
+  
+  
+  
+  
+  /************************
+  **************************
+  Created by MARYAM RANA
+  ***************************
+  **************************
+  Announcement AREA
+  ********************************/
+  
+  
+  
+  .PAK301-lasticon{width: 100%;
+  height: 10vh;
+  display: flex;}
+  
+  
+  .Announcement{width:50%;
+  height: 10vh;
+  display: flex;
+  flex-direction: column;}
+  
+  
+  .AnnouncementPAK301img{ width: 100%;
+  height:7vh ;
+  background-color: white;
+  margin-left: 15px;
+  margin-top: 3px;
+  }
+  
+  
+  
+  .AnnouncementPAK301content{width: 100%;
+  height:3vh ;
+  background-color:white;
+  margin-left: 15px;}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .emptyPAK301{width:50%;
+  height: 10vh;
+  }
+
+/****************************************************************
+****************LOWER AREA*****************************************
+******************************************************************/
+
+
+
+.lower-content{display: flex;
+    align-items: center;
+     justify-content: space-between;
+     width: 100%;
+     height: 60vh;
+      }
+
+/*******************ISL202
+****************/
+
+.ISL202{width: 50%;
+    height:60vh ;
+ }
+
+/******************
+********************ISL202****************
+***********************************/
+
+
+
+
+.ISL202{ width: 50%;
+  height:63vh ;
+ }
+
+
+/***************************
+********ISL202****************
+*****CREATED BY MARYAM RANA***/
+
+.ISL202{ width: 50%;
+height:63vh ;
+}
+
+
+/*****************************
+********************************
+***********ISL202-AREA******/ 
+
+
+
+
+
+.ISL202{width: 50%;
+  height:63vh ;
+}
+
+
+.ISL202-mainbar{width: 90%;
+  height:50vh ;
+  margin-left: 25px;
+   margin-top: 60px;
+
+}
+
+
+.ISL202bar{  width:100%;
+height:10vh ;
+background-size:cover;
+opacity: 0.9;
+ cursor: pointer;
+ color: white;
+
+
+}
+.ISL202-content{ width:100%;
+  height:10vh ;
+  margin-left: 12px;
+  font-size: 0.75rem;
+    font-weight: 500;
+    font-family:sans-serif;
+ 
+   }
+
+.ISL202-content h2{width: 90%;
+   height:3vh ;}
+
+
+.ISL202-content h5{width: 90%;
+     height:2vh ;
+     margin-top: 12px;}
+
+
+
+
+
+.ISL202-teacher{width: 100%;
+   height:20vh ;
+   display: flex;}
+
+
+.Abdul{width: 30%;
+height: 20vh;
+background-color:white;}
+
+
+
+
+.Abdul img{width: 100px;
+height: 90px;
+ margin-left: 15px;
+ margin-top: 16px;
+  border: 2px solid black;
+  border-radius:12px ;}
+
+
+
+
+
+.Abdul-content{width: 70%;
+height: 20vh;
+background-color: white;
+}
+
+
+
+.Abdul p{ margin-top: 40px;
+        margin-left: 12px;}
+
+
+
+.ISL202-icons{    width: 100%;
+    height:10vh ;
+    display: flex;
+   align-items: center;
+     justify-content: space-evenly;
+}
+
+/************************
+**************************
+Created by MARYAM RANA
+***************************
+**************************
+ASSINNMENT AREA
+********************************/
+
+.AssignmentISL202{width: 25%;
+height:10vh ;
+background-color: white;
+display: flex;
+flex-direction: column;
+
+}
+
+
+.AssignmentISL202img{width: 100%;
+        height:7vh ;
+         background-color: white;
+         margin-left: 25px;
+        }
+
+
+.AssignmentISL202content{width: 100%;
+height:3vh ;
+background-color:white;
+margin-left: 12px;}
+
+/************************
+**************************
+Created by MARYAM RANA
+***************************
+**************************
+Quiz AREA
+********************************/
+
+
+
+
+.Quiz4ISL202{width: 25%;
+height:10vh ;
+display: flex;
+flex-direction: column;}
+
+
+.Quiz4ISL202img{width: 100%;
+height:7vh ;
+background-color: white;
+margin-left: 25px;
+}
+
+
+.Quiz4ISL202content{width: 100%;
+height:3vh ;
+background-color:white;
+margin-left: 25px;}
+
+
+
+
+/************************
+**************************
+Created by MARYAM RANA
+***************************
+**************************
+GDB  AREA
+********************************/
+
+.GDBISL202{  width: 25%;
+height:10vh ;  
+display: flex;
+flex-direction: column;}
+
+
+
+.GDBISL202img{   width: 100%;
+height:7vh ;
+background-color: white;
+margin-left: 25px;
+}
+
+
+
+
+.GDBISL202content{width: 100%;
+height:3vh ;
+background-color:white;
+margin-left: 25px;}
+
+
+
+
+/************************
+**************************
+Created by MARYAM RANA
+***************************
+**************************
+Activity AREA
+********************************/
+
+
+
+
+.ActivityISL202{ width: 25%;
+height:10vh ;
+display: flex;
+flex-direction: column;
+}
+
+
+
+.ActivityISL202img{   width: 100%;
+height:7vh ;
+background-color: white;
+margin-left: 25px;
+}
+
+
+
+
+.ActivityISL202content{width: 100%;
+height:3vh ;
+background-color:white;
+margin-left: 25px;}
+
+
+
+
+
+
+
+
+/************************
+**************************
+Created by MARYAM RANA
+***************************
+**************************
+Announcement AREA
+********************************/
+
+
+
+.ISL202-lasticon{width: 100%;
+height: 10vh;
+display: flex;}
+
+
+.Announcement{width:50%;
+height: 10vh;
+display: flex;
+flex-direction: column;}
+
+
+.AnnouncementISL202img{ width: 100%;
+height:7vh ;
+background-color: white;
+margin-left: 15px;
+margin-top: 3px;
+}
+
+
+
+.AnnouncementISL202content{width: 100%;
+height:3vh ;
+background-color:white;
+margin-left: 15px;}
+
+
+
+
+
+
+
+
+
+.emptyISL202{width:50%;
+height: 10vh;
+}
+
+
+/**************************
+**********MTH100**************************
+***************************************
+*****************************************
+**************************/
+
+
+
+
+.MTH100{width: 50%;
+    height:60vh ;
+    }
+
+/*******************ISL202
+****************/
+
+.MTH100{width: 50%;
+  height:60vh ;
+}
+
+/******************
+********************MTH100****************
+***********************************/
+
+
+
+
+.MTH100{ width: 50%;
+height:63vh ;
+}
+
+
+/***************************
+********MTH100****************
+*****CREATED BY MARYAM RANA***/
+
+.MTH100{ width: 50%;
+height:63vh ;
+}
+
+
+/*****************************
+********************************
+***********MTH100-AREA******/ 
+
+
+
+
+
+.MTH100{width: 50%;
+height:63vh ;
+}
+
+
+.MTH100-mainbar{width: 90%;
+height:50vh ;
+margin-left: 25px;
+ margin-top: 60px;
+
+}
+
+
+.MTH100bar{  width:100%;
+height:10vh ;
+background-size:cover;
+opacity: 0.9;
+cursor: pointer;
+color: white;
+
+
+}
+.MTH100-content{ width:100%;
+height:10vh ;
+margin-left: 12px;
+font-size: 0.75rem;
+  font-weight: 500;
+  font-family:sans-serif;
+
+ }
+
+.MTH100-content h2{width: 90%;
+ height:3vh ;}
+
+
+.MTH100-content h5{width: 90%;
+   height:2vh ;
+   margin-top: 12px;}
+
+
+
+
+
+.MTH100-teacher{width: 100%;
+ height:20vh ;
+ display: flex;}
+
+
+.Naveed{width: 30%;
+height: 20vh;
+background-color:white;}
+
+
+
+
+.Naveed img{width: 100px;
+height: 90px;
+margin-left: 15px;
+margin-top: 16px;
+border: 2px solid black;
+border-radius:12px ;}
+
+
+
+
+
+.Naveed-content{width: 70%;
+height: 20vh;
+background-color: white;
+}
+
+
+
+.Naveed p{ margin-top: 40px;
+      margin-left: 12px;}
+
+
+
+.MTH100-icons{    width: 100%;
+  height:10vh ;
+  display: flex;
+ align-items: center;
+   justify-content: space-evenly;
+}
+
+/************************
+**************************
+Created by MARYAM RANA
+***************************
+**************************
+ASSINNMENT AREA
+********************************/
+
+.AssignmentMTH100{width: 25%;
+height:10vh ;
+background-color: white;
+display: flex;
+flex-direction: column;
+
+}
+
+
+.AssignmentMTH100img{width: 100%;
+      height:7vh ;
+       background-color: white;
+       margin-left: 25px;
+      }
+
+
+.AssignmentMTH100content{width: 100%;
+height:3vh ;
+background-color:white;
+margin-left: 12px;}
+
+/************************
+**************************
+Created by MARYAM RANA
+***************************
+**************************
+Quiz AREA
+********************************/
+
+
+
+
+.Quiz4MTH100{width: 25%;
+height:10vh ;
+display: flex;
+flex-direction: column;}
+
+
+.Quiz4MTH100img{width: 100%;
+height:7vh ;
+background-color: white;
+margin-left: 25px;
+}
+
+
+.Quiz4MTH100content{width: 100%;
+height:3vh ;
+background-color:white;
+margin-left: 25px;}
+
+
+
+
+/************************
+**************************
+Created by MARYAM RANA
+***************************
+**************************
+GDB  AREA
+********************************/
+
+.GDBMTH100{  width: 25%;
+height:10vh ;  
+display: flex;
+flex-direction: column;}
+
+
+
+.GDBMTH100img{   width: 100%;
+height:7vh ;
+background-color: white;
+margin-left: 25px;
+}
+
+
+
+
+.GDBMTH100content{width: 100%;
+height:3vh ;
+background-color:white;
+margin-left: 25px;}
+
+
+
+
+/************************
+**************************
+Created by MARYAM RANA
+***************************
+**************************
+Activity AREA
+********************************/
+
+
+
+
+.ActivityMTH100{ width: 25%;
+height:10vh ;
+display: flex;
+flex-direction: column;
+}
+
+
+
+.ActivityMTH100img{   width: 100%;
+height:7vh ;
+background-color: white;
+margin-left: 25px;
+}
+
+
+
+
+.ActivityMTH100content{width: 100%;
+height:3vh ;
+background-color:white;
+margin-left: 25px;}
+
+
+
+
+
+
+
+
+/************************
+**************************
+Created by MARYAM RANA
+***************************
+**************************
+Announcement AREA
+********************************/
+
+
+
+.MTH100-lasticon{width: 100%;
+height: 10vh;
+display: flex;}
+
+
+.Announcement{width:50%;
+height: 10vh;
+display: flex;
+flex-direction: column;}
+
+
+.AnnouncementMTH100img{ width: 100%;
+height:7vh ;
+background-color: white;
+margin-left: 15px;
+margin-top: 3px;
+}
+
+
+
+.AnnouncementMTH100content{width: 100%;
+height:3vh ;
+background-color:white;
+margin-left: 15px;}
+
+
+
+
+
+
+
+
+
+.emptyMTH100{width:50%;
+height: 10vh;
+}
+
+
+
+
+
+/********created by : Maryam rana*******************************
+ **************************************************************
+ ***********sidebar**************************/  
+
+
+
+
+
+    
+ 
+ 
+
+ .sidebar{ width: 20%;
+            height: 200vh;
+            background-color: aqua;}
+          
+            
+
+.upper-sidebar{  width: 100%;
+                 height: 13vh;
+                 background-color: #282a3c;
+                 display: flex;
+                 align-items: center;
+                 justify-content: center;}
+
+
+.lower-sidebar {
+    background-color:#282a3c;
+    padding: 10px;
+    text-decoration: none;
+    list-style: none;
+    width: 92%;
+    height:189vh ;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;       }
+      
+
+
+     .content-sidebar{ width: 100%;
+                        height: 180vh;}
+
+.content-sidebar a{color: white;
+                    }
+
+.bi.bi.bi-house-door-fill{ margin-top: 12px;
+                      margin-left:12px ;
+                       color: white;}
+
+.bi.bi.bi-list-task{margin-top: 12px;
+  margin-left:12px ;
+   color: white;}
+
+
+
+.bi.bi.bi-stack{margin-top: 12px;
+  margin-left:12px ;
+   color: white;}
+
+   .bi.bi.bi-sliders{margin-top: 12px;
+    margin-left:12px ;
+     color: white;}
+
+   .bi.bi.bi-graph-up-arrow{margin-top: 12px;
+    margin-left:12px ;
+     color: white;}
+
+
+   .bi.bi.bi-calendar2-week{margin-top: 12px;
+    margin-left:12px ;
+     color: white;}
+
+   .bi.bi.bi-envelope-fill{margin-top: 12px;
+    margin-left:12px ;
+     color: white;}
+
+   .bi.bi.bi-card-checklist{margin-top: 12px;
+    margin-left:12px ;
+     color: white;}
+
+   .bi.bi.bi-gear-wide-connected{margin-top: 12px;
+    margin-left:12px ;
+     color: white;}
+
+   .bi.bi.bi-file-spreadsheet{margin-top: 12px;
+    margin-left:12px ;
+     color: white;}
+
+   .bi.bi.bi-handbag{margin-top: 12px;
+    margin-left:12px ;
+     color: white;}
+
+.bi.bi.bi-telephone-fill{margin-top: 12px;
+  margin-left:12px ;
+   color: white;}
+
+.bi.bi.bi-question-lg{margin-top: 12px;
+  margin-left:12px ;
+   color: white;}
+
+
+     .footer{width: 100%;
+             height: 9vh;
+            margin-bottom: 100px;
+            display: flex;
+             justify-content: space-between;
+            flex-direction: column;
+              }
+    .footer a{ list-style: none;
+        text-decoration: none;
+       color: white;}
+
+    .content-sidebar li{
+       list-style: none;
+        margin-top: 20px;
+        text-decoration: none;
+        list-style: none;
+        box-sizing: border-box;
+        
+        width :100%;
+        height: 8vh;
+                         }
+
+.content-sidebar a{list-style: none;
+                   text-decoration: none;
+                    font-family:Arial, Helvetica, sans-serif;
+                    }
+
+
+
+
+
+
+
+
+
+
+ 
